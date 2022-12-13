@@ -3,35 +3,21 @@
     font-size: 20px;
     font-weight: 100px;
 }
-body{
-    background-color: #000;
-}
 div{
+    width: 45%;
     display: inline-block;
-}
-.caja{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid #f00;
-    background-color: darksalmon;
-    cursor: pointer;
-}
-.caja1{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid #f00;
-    background-color: darksalmon;
-    cursor: pointer;
-    background: rgb(100, 70, 20);
+    padding: 20px;
+    background: #ddd;
+}   
+h1{
+    font-size: 24px;
 }
 .caja2{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid #f00;
-    background-color: rgba(255, 0, 0, 0.2);
-    opacity: 0.2;
-    cursor: pointer;
+    background: #bbb;
+}
+@media only screen and(max-width:800px){
+    div{
+        display:block;
+        width: 100%;
+    }
 }
