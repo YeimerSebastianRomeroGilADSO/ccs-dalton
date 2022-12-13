@@ -13,4 +13,5 @@
     width: 100%;
     border: 2px solid red;
     object-fit: none;
+    object-position: bottom;
 }
