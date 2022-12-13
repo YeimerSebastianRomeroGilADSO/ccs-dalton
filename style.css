@@ -1,8 +1,6 @@
-.contenedor{
+*{
     font-family: 'Lobster', cursive;
 }
-.font{
-    font-size: 3em;
-    font-weight: 50;
-    color: red;
+.contenedor{
+    font-size: 25px;
 }
