@@ -13,4 +13,7 @@ p.uno{
     border-radius: 40px;
     border: 10px solid red;
     line-height: 100px;
+    box-shadow: 10px 30px 15px goldenrod;
+    text-shadow: 2px 2px 5px white,2px 2px 5px blue;
+    transform: rotate(-10deg);
 }
