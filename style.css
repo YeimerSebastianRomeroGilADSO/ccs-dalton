@@ -3,23 +3,37 @@
     font-size: 20px;
     font-weight: 100px;
 }
-form{
-    margin: 100px;
-    display: block;
-    background-color: #555;
-    padding: 100px;
-    width: 50%;
-}
-b{
-    padding: 6px;
-    width: 100%;
-}
 
-b::before{
-    content: "me suscribi   ";
-    color: #fff;
+a:link{
+    color: red;   
 }
-b::after{
-    content: "todo tendencias";
-    color: red;
+a:visited{
+    color: violet;
+}
+#caja1{
+    color: green;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 25px;
+    transition: all 0.2s;
+
+}
+.caja:active{
+    background-color: black;
+    width: 400px;
+}
+.caja12:focus{
+   margin: 25px;
+   background:lightgray;
+   transition:  0.4s, padding 0.4s;
+}
+.caja12{
+    background: white;
+    padding: 20px;
+}
+.caja5:lang(en){
+    background-color: red;
 }
