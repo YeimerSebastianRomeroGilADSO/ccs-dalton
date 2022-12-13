@@ -1,38 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
 
+}
 .contenedor{
-    border: 2px solid green;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
+    font-size: 25px;
 }
-h1{
-    font-size: 60px;
-    color: red;
+.contenedor__font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.contenedor__px{
-    font-size: 50px;
+.contenedor__font-size{
+    font-size: 4em;
 }
-.contenedor__cm{
-    font-size: 2cm;
+.contenedor__font-weight{
+    font-weight: 900;
 }
-.contenedor__pt{
-    font-size: 50pt;
-}
+.contenedor__line-height{
+    line-height: 2;
 
-.contenedor-relativos{
-    border: 2px solid green;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-}
-.contenedor__em{
-    font-size: 5em;
-}
-.contenedor__vh{
-    color: white;
-    background: black;
-    height: 5vh;
-}
-.contenedor__vw{
-    color: white;
-    background: black;
-    width: 50vw;
 }
