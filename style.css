@@ -1,11 +1,46 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: 100px;
 }
-body{
-    background: black;
+
+.contenedor div{
+    width: 50%;
+    float: right;    
 }
-div{
+.primario{
+    background: red;
+}
+.secundario{
+    background: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cont{
     margin: auto;
     margin-top: 50px;
     width: 300px;
@@ -14,10 +49,9 @@ div{
     background: gray;
     overflow: hidden;
 }
-.o{
-    overflow-x: scroll;
-}
-img{
+
+
+img {
     width: 1000px;
     position: relative;
     top: 50px;
