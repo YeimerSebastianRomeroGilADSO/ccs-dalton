@@ -6,28 +6,13 @@
     display: inline-block;
     margin: 20px;
 }
-p.left{
-    padding-left: 30px;
-    background-color: aquamarine;
-}
-p.right{
-    padding-right: 30px;
-    background-color: red;
-}
-p.top{
-    padding-top: 20px;
-    background: blue;
-}
-p.bottom{
-    padding-bottom: 20px;
-    background: black;
-    color: white;
-}
-p.tot{
-    background: yellow;
-    padding: 20px;
-}
+
+
 p.padding{
     background: green;
     padding: 10px 20px 30px 40px;   
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    box-sizing: border-box;
 }
