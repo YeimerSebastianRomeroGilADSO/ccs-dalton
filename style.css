@@ -4,11 +4,20 @@
 }
 
 div{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background: green;
-    display: inline-block;
+    display: block;
 }
-.caja1{
-    outline: 10px solid blue;
+.caja2{
+    background: red;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.caja3{
+    background: blue;
+}
+.caja4{
+    background: yellow;
 }
