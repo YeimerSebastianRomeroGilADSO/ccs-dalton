@@ -1,44 +1,7 @@
-*{
-    background: orangered;
-    margin: 10px;
-    padding: 0;
-    font-size: 50px;
+input{
+    display: flex;
+    margin-top: 10px;
 }
-/* Especificidad (pseudo-elementos y elementos) */
-h1{
-    color:green;
+.form__input{
+    color: red;
 }
-/* toma al ultimo elemnto ya que al estar en la misma escala jerarquica toma el elemento ultimo en cascada */
-h1{
-    color: aquamarine;
-}
-/*(clases, psuedo-clases, atributos) */
-h2 .color-blue {
-    color: greenyellow;
-}
-[atributo='black']{
-    color: black;
-}
-.color-blue:hover{
-    color: darkblue;
-} 
-/* toma al ultimo elemnto ya que al estar en la misma escala jerarquica toma el elemento ultimo en cascada */
-
-/* Identificadores (id) */
-
-#identificador{
-    color: darkviolet;
-}
-h3{
-    color:gray !important;
-
-}
-h2 {
-    color: bisque;
-}
-/* Tabla de especificidad */
-/* !important
-estilos en linea 
-identificadores
-(clases, psuedo-clases, atributos)
-Especificidad (pseudo-elementos y elementos) */
