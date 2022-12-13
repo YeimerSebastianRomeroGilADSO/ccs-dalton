@@ -1,6 +1,13 @@
 *{
     font-family: 'Lobster', cursive;
+    font-size: 50px;
 }
-.contenedor{
-    font-size: 25px;
+h2{
+    height: 100px;
+    width: 100px;
+}
+p{
+    height: inline;
+    height: 100px;
+    width: 100px;
 }
