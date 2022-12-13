@@ -1,21 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
 .contenedor{
-    font-size: 25px;
+    font-family: 'Lobster', cursive;
 }
-.contenedor__font{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.contenedor__font-size{
-    font-size: 4em;
-}
-.contenedor__font-weight{
-    font-weight: 900;
-}
-.contenedor__line-height{
-    line-height: 2;
-
+.font{
+    font-size: 3em;
+    font-weight: 50;
+    color: red;
 }
