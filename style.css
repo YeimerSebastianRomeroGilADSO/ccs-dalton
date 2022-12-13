@@ -1,0 +1,31 @@
+/* selector universal(*) */
+*{
+    color: red;
+}
+/* selector de tipo */
+h1{
+    color: aqua;
+}
+/* selector de clases */
+.titulo{
+    color: blueviolet;
+}
+/* selector de id */
+#id{
+    color: blanchedalmond;
+}
+/* selector por atributo */
+[atributo='a']{
+    color: cornflowerblue;
+}
+/* selector descendiente */
+h2 p{
+    color: darkseagreen;
+}
+h2 p span{
+    color: aqua;
+}
+/* selector pseudo clases */
+b:hover{
+    color: black;
+}
